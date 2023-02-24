@@ -10,5 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "******"
+#include "minilibx-linux/mlx.h"
+#include "so_long.h"
 
+int main()
+{
+    void    *mlx_pointer = mlx_init();
+    mlx_loop(mlx_pointer);
+}
